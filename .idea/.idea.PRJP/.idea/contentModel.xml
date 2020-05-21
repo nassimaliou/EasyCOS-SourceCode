@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Mohamed Nassim\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Mohamed Nassim\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_PRJP.59152095.00" t="ExcludeRecursive" />
+    <e p="E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PRJP.sln" t="IncludeFlat" />
+      <e p="WpfApp2" t="IncludeRecursive">
+        <e p="240_F_291879016_v9wrX0UHGEhZipuTQzdgfhfghcnBltzBFb3Bdp (1).png" t="Include" />
+        <e p="Accueil.xaml" t="Include" />
+        <e p="Accueil.xaml.cs" t="Include" />
+        <e p="Accueil1.mp4" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="Archivage.xaml" t="Include" />
+        <e p="Archivage.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="check.gif" t="Include" />
+        <e p="Connexion.mp4" t="Include" />
+        <e p="Connexion.xaml" t="Include" />
+        <e p="Connexion.xaml.cs" t="Include" />
+        <e p="credit-4516068_1920.jpg" t="Include" />
+        <e p="dons.xaml" t="Include" />
+        <e p="dons.xaml.cs" t="Include" />
+        <e p="ESI.png" t="Include" />
+        <e p="fenetre1.xaml" t="Include" />
+        <e p="fenetre1.xaml.cs" t="Include" />
+        <e p="fenetre2.xaml" t="Include" />
+        <e p="fenetre2.xaml.cs" t="Include" />
+        <e p="finance-4858797_1920.jpg" t="Include" />
+        <e p="introduction2.mp4" t="Include" />
+        <e p="loading.mp4" t="Include" />
+        <e p="loan.jpeg" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="NouveauPrêts.xaml" t="Include" />
+        <e p="NouveauPrêts.xaml.cs" t="Include" />
+        <e p="Noyau" t="Include">
+          <e p="archive.cs" t="Include" />
+          <e p="Employé.cs" t="Include" />
+          <e p="Modification.cs" t="Include" />
+          <e p="pret_non_remboursable.cs" t="Include" />
+          <e p="pret_remboursable.cs" t="Include" />
+          <e p="prets.cs" t="Include" />
+          <e p="responsable.cs" t="Include" />
+          <e p="Type_pret.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Accueil.g.cs" t="Include" />
+            <e p="App.g.cs" t="Include" />
+            <e p="Archivage.g.cs" t="Include" />
+            <e p="Connexion.g.cs" t="Include" />
+            <e p="dons.g.cs" t="Include" />
+            <e p="fenetre1.g.cs" t="Include" />
+            <e p="fenetre2.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="NouveauPrêts.g.cs" t="Include" />
+            <e p="Settings.g.cs" t="Include" />
+            <e p="Statistiques.g.cs" t="Include" />
+            <e p="Suivi_Prét.g.cs" t="Include" />
+            <e p="UserControl1.g.cs" t="Include" />
+            <e p="Window3.g.cs" t="Include" />
+            <e p="Window4.g.cs" t="Include" />
+            <e p="Window5.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="prelevement_deux.xaml" t="Include" />
+        <e p="prelevement_deux.xaml.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Settings.xaml" t="Include" />
+        <e p="Settings.xaml.cs" t="Include" />
+        <e p="Statistiques.xaml" t="Include" />
+        <e p="Statistiques.xaml.cs" t="Include" />
+        <e p="Suivi_Prét.xaml" t="Include" />
+        <e p="Suivi_Prét.xaml.cs" t="Include" />
+        <e p="UserControl1.xaml" t="Include" />
+        <e p="UserControl1.xaml.cs" t="Include" />
+        <e p="Window3.xaml" t="Include" />
+        <e p="Window3.xaml.cs" t="Include" />
+        <e p="Window4.xaml" t="Include" />
+        <e p="Window4.xaml.cs" t="Include" />
+        <e p="Window5.xaml" t="Include" />
+        <e p="Window5.xaml.cs" t="Include" />
+        <e p="WpfApp2.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

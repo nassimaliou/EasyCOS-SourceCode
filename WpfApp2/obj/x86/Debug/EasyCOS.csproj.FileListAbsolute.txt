@@ -1,0 +1,243 @@
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EasyCOS.csproj.ResolveComReference.cache
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Settings.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window5.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window6.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Accueil.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Archivage.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Bilan.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Employes.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\fenetre1.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\fenetre2.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\NouveauPrêts.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Settings.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\stat.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Statistiques.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Suivi_Prét.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Connexion.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\dons.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\UserControl1.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window3.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window4.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window5.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window6.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\App.g.cs
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EASY COS_MarkupCompile.cache
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EASY COS_MarkupCompile.lref
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EASY COS.exe
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EASY COS.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\check.gif
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\loading.mp4
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\Accueil1.mp4
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\Connexion.mp4
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\introduction2.mp4
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\EASY COS.exe.config
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\EASY COS.exe
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\EASY COS.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\LiveCharts.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\MaterialDesignColors.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\Pubnub.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\WPFNotification.dll
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\LiveCharts.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\LiveCharts.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\MaterialDesignColors.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EasyCOS.csprojAssemblyReference.cache
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\App.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Accueil.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Archivage.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Bilan.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Employes.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\fenetre1.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\fenetre2.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\MainWindow.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\NouveauPrêts.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\stat.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Statistiques.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Suivi_Prét.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Connexion.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\dons.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\UserControl1.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window3.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\Window4.baml
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EASY COS.g.resources
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EasyCOS.Properties.Resources.resources
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EasyCOS.csproj.GenerateResource.cache
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EasyCOS.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Nassim\Desktop\PRJP-2CP-FINALE-finale\WpfApp2\obj\x86\Debug\EasyCOS.csproj.CopyComplete
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\Accueil1.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\Connexion.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\check.gif
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\loading.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\introduction2.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\EASY COS.exe.config
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\EASY COS.exe
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\EASY COS.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\LiveCharts.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\MaterialDesignColors.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\Pubnub.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\WPFNotification.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\LiveCharts.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\LiveCharts.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\MaterialDesignColors.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EasyCOS.csproj.ResolveComReference.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Settings.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window5.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window6.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Accueil.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Archivage.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Bilan.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Employes.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\fenetre1.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\fenetre2.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\NouveauPrêts.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Settings.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\stat.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Statistiques.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Suivi_Prét.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Connexion.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\dons.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\UserControl1.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window3.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window4.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window5.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window6.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\App.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EASY COS_MarkupCompile.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EASY COS_MarkupCompile.lref
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\App.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Accueil.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Archivage.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Bilan.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Employes.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\fenetre1.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\fenetre2.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\MainWindow.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\NouveauPrêts.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\stat.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Statistiques.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Suivi_Prét.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Connexion.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\dons.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\UserControl1.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window3.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\Window4.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EASY COS.g.resources
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EasyCOS.Properties.Resources.resources
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EasyCOS.csproj.GenerateResource.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EasyCOS.csproj.CopyComplete
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EASY COS.exe
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EASY COS.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EasyCOS.csprojAssemblyReference.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\x86\Debug\EASY COS_Content.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\check.gif
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\loading.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\Accueil1.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\Connexion.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\introduction2.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\EASY COS.exe.config
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\EASY COS.exe
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\EASY COS.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\LiveCharts.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\MaterialDesignColors.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\Pubnub.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\System.Data.SqlClient.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\WPFNotification.dll
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\BouncyCastle.Crypto.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\LiveCharts.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\LiveCharts.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\LiveCharts.Wpf.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\MaterialDesignColors.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\System.Data.SqlClient.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EasyCOS.csprojAssemblyReference.cache
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EasyCOS.csproj.ResolveComReference.cache
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Settings.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window5.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window6.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Accueil.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Archivage.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Bilan.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Employes.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\fenetre1.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\fenetre2.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\NouveauPrêts.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Settings.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\stat.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Statistiques.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Suivi_Prét.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Connexion.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\dons.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\UserControl1.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window3.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window4.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window5.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window6.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\App.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EASY COS_Content.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EASY COS_MarkupCompile.cache
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EASY COS_MarkupCompile.lref
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\App.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Accueil.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Archivage.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Bilan.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Employes.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\fenetre1.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\fenetre2.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\MainWindow.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\NouveauPrêts.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\stat.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Statistiques.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Suivi_Prét.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Connexion.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\dons.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\UserControl1.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window3.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\Window4.baml
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EASY COS.g.resources
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EasyCOS.Properties.Resources.resources
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EasyCOS.csproj.GenerateResource.cache
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EasyCOS.csproj.CopyComplete
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EASY COS.exe
+C:\Users\ELITEBOOK\Desktop\prologue\18 mai\WpfApp2\obj\x86\Debug\EASY COS.pdb

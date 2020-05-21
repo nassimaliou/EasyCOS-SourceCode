@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp2.Connexion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="EasyCOS" Height="450" Name="Connexion_Grid" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True">
+    <Grid x:Name="connexion_grid" >
+        <StackPanel>
+            <Grid Height="40" VerticalAlignment="Top">
+                <Grid Background="#62d2a2">
+                    <Label FontWeight="DemiBold" Content="Connexion" VerticalContentAlignment="Center" Foreground="White" FontSize="20" Margin="345,0" RenderTransformOrigin="0.381,0.5"></Label>
+                    <Button Width="50" Background="Transparent" BorderBrush="{x:Null}" Margin="630,4,120,4" Click="Minimizer_Click">
+                        <materialdesign:PackIcon VerticalAlignment="Center" HorizontalAlignment="Center" Kind="WindowMinimize" Foreground="White" Width="20" Height="20"></materialdesign:PackIcon>
+                    </Button>
+                    <Button Width="50" Background="Transparent" BorderBrush="{x:Null}" Click="Agrendir_Click" Margin="685,4,65,4">
+                        <materialdesign:PackIcon VerticalAlignment="Center" HorizontalAlignment="Center" Kind="WindowMaximize" Foreground="White" Width="20" Height="20"></materialdesign:PackIcon>
+                    </Button>
+                    <Button Width="50" Background="Transparent" BorderBrush="{x:Null}" Click="Arrét_Click" Margin="740,4,10,4">
+                        <materialdesign:PackIcon VerticalAlignment="Center" HorizontalAlignment="Center" Kind="WindowClose" Foreground="White" Width="20" Height="20"></materialdesign:PackIcon>
+                    </Button>
+                </Grid>
+            </Grid>
+            <Grid Height="410">
+                <Image Width="400" Source="loan.jpeg" Stretch="UniformToFill" Margin="0,0,400,0" ></Image>
+                <Grid Width="400" Margin="400,0,0,0">
+                    <Label VerticalAlignment="Center"  Foreground="#FF3250A0" FontWeight="Bold" FontFamily="Rockwell Extra Bold"   FontSize="25"  Content="EASY COS"  HorizontalAlignment="Center" Margin="155,34,93,335" Width="152" Height="41"></Label>
+                    <Image Source="/240_F_291879016_v9wrX0UHGEhZipuTQzdgfhfghcnBltzBFb3Bdp (1).png" Margin="50,4,230,286" Width="120" Height="120"/>
+
+                    <materialdesign:PackIcon Foreground="Gray" Kind="AccountCircle" Height="40" Width="30" Margin="10,110,0,0"></materialdesign:PackIcon>
+                    <TextBox x:Name="Nom_utilisateur" Margin="50,115,50,265" Height="30" materialdesign:HintAssist.Hint="  Pseudo" Width="300" TextChanged="TextBox_TextChanged"/>
+
+                    <materialdesign:PackIcon Foreground="Gray" Width="30" Height="40" Kind="Key" Margin="10,195,0,0" />
+                    <PasswordBox x:Name="mot_de_passe" Margin="50,200,50,180" Width="300" Height="30" materialdesign:HintAssist.Hint="  Mot De Passe" Visibility="Visible"></PasswordBox>
+                    <TextBox x:Name="mot_de_passe_text" Margin="50,200,50,180" Width="300" Height="30" materialdesign:HintAssist.Hint="  Mot De Passe" Visibility="Hidden"/>
+                    <Button  Background="{x:Null}" Width="30" Height="30"   Padding="0" BorderBrush="{x:Null}"  FontWeight="Bold" Click="hide_pwd_click" Margin="360,200,10,180" >
+                        <materialdesign:PackIcon Visibility="Hidden" x:Name="eye" Kind="Eye" Foreground="Gray" Height="25" Width="25" ></materialdesign:PackIcon>
+                    </Button>
+                    <Button  Background="{x:Null}" Width="30" Height="30"   Padding="0" BorderBrush="{x:Null}"  FontWeight="Bold" Click="hide_pwd_click" Margin="360,200,10,180" >
+                        <materialdesign:PackIcon x:Name="eye_off" Visibility="Visible" Kind="EyeOff" Foreground="Gray" Height="25" Width="25" ></materialdesign:PackIcon>
+                    </Button>
+                    <Border CornerRadius="20" Width="150" Height="32" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FF1FAB89" Margin="120,260,130,118">
+                        <Button  x:Name="Connexion_button" VerticalAlignment="Bottom" Background="Transparent" Content="Se Connecter" Foreground="White" FontWeight="Bold"  BorderBrush="{x:Null}" Click="Se_Connecter_Click"/>
+                    </Border>
+                    <Border Width="110" Height="100" VerticalAlignment="Bottom" Background="White" Margin="145,0,145,10">
+                        <MediaElement Visibility="Visible"  Width="110" Height="85" Source="check.gif" HorizontalAlignment="Center" VerticalAlignment="Bottom" Stretch="Fill" UnloadedBehavior="Manual" LoadedBehavior="Manual" x:Name="verification" MediaEnded="checked_MediaEnded" Margin="0,0,0,15"></MediaElement>
+                    </Border>
+                </Grid>
+            </Grid>
+        </StackPanel>
+        <StackPanel Visibility="Hidden" x:Name="error" Width="300" Height="120" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="450,0,50,0">
+            <materialdesign:PackIcon Kind="Error" Width="100" Height="80" Foreground="#FFFB1616" Margin="0,15,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"></materialdesign:PackIcon>
+            <Label Foreground="#FFF92929" FontWeight="Bold" Content="Votre Pseudo ou votre mot de passe est incorrecte " Margin="0,-2,0,0"></Label>
+        </StackPanel>
+    </Grid>
+</Window>
+

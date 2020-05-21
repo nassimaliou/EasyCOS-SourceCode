@@ -1,0 +1,145 @@
+﻿<UserControl x:Class="WpfApp2.NouveauPrêts"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp2"
+             xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="1000">
+    <Grid Background="White">
+        <StackPanel Height="650" Margin="400,0,0,0" VerticalAlignment="Top">
+            <Grid>
+                <StackPanel x:Name="Note" Orientation="Horizontal" Visibility="Visible">
+                    <Label Content="Note :" FontSize="22" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"></Label>
+                    <Label Content=" La modification de prêt concerne uniquement sa &#xA; disponibilité . Une fois l'ajout d' un type est &#xA;  confirmé vous ne pourrez plus modifié les autres &#xA; attributs." FontSize="21" Width="480"></Label>
+                </StackPanel>
+                <Button  x:Name="Display_Note" ToolTip="Cacher la Note" Click="Display_Note_Click" Height="30" Width="50" Margin="550,-60,0,0" Background="Transparent" BorderBrush="{x:Null}">
+                    <materialdesign:PackIcon x:Name="Icon_Display_Note" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Kind="ArrowUpBoldCircleOutline" Foreground="Black"></materialdesign:PackIcon>
+                </Button>
+            </Grid>
+            <StackPanel Visibility="Collapsed" x:Name="Ajout" Height="301" Margin="0,0,0,0"  VerticalAlignment="Top" HorizontalAlignment="Center" Width="600">
+                <Label Content="Veuillez Remplir le formulaire suivant :" FontSize="30"></Label>
+                <Label x:Name="Erreur_formulaire" Visibility="Hidden" Content="Vous devez fournir toutes les informations demandées" FontSize="18" Foreground="Red"></Label>
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,15">
+                    <Label Content="Remboursable : NON" FontSize="15"></Label>
+                    <ToggleButton x:Name="Remboursable"
+  Style="{StaticResource MaterialDesignSwitchAccentToggleButton}"
+  ToolTip="MaterialDesignSwitchAccentToggleButton"
+  IsChecked="False" />
+                    <Label Content=" OUI" FontSize="15"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                    <Label Content="Disponible : NON" FontSize="15"></Label>
+                    <ToggleButton x:Name="Disponible"
+  Style="{StaticResource MaterialDesignSwitchAccentToggleButton}"
+  ToolTip="MaterialDesignSwitchAccentToggleButton"
+  IsChecked="False" />
+                    <Label Content=" OUI" FontSize="15"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,25">
+                    <Label Content="Description :" FontSize="15"></Label>
+                    <TextBox FontSize="15" x:Name="Description" Width="500"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Border  HorizontalAlignment="left" VerticalAlignment="Bottom" Width="100" Height="32" CornerRadius="20" Background="#FF1FAB89" Margin="40,0,0,0">
+                        <Button x:Name="Confirmer_formulaire" VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Confirmer" Foreground="White" FontWeight="Bold" Margin="1,0,0,0" BorderBrush="{x:Null}" Click="Confirmer_formulaire_Click"></Button>
+                    </Border>
+                    <Border CornerRadius="20" Width="100" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="200,0,0,0">
+                        <Button x:Name="Annuler_formulaire" VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Annuler" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"  BorderBrush="{x:Null}" Click="Annuler_formulaire_Click"></Button>
+                    </Border>
+                </StackPanel>
+                <Label Visibility="Hidden" x:Name="Ajouter_type_label" Margin="0,10,0,0" Content="Le nouveau type a été créer avec succés" HorizontalContentAlignment="Center" Background="#FF272A33" Foreground="White" FontWeight="DemiBold" FontSize="15" ></Label>
+            </StackPanel>
+            <StackPanel Visibility="Collapsed" x:Name="Modification">
+                <Label Content="Modification d'un prêt :" FontSize="30"></Label>
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,15">
+                    <Label Content="Disponible : NON" FontSize="15"></Label>
+                    <ToggleButton x:Name="Disponible_existant"
+  Style="{StaticResource MaterialDesignSwitchAccentToggleButton}"
+  ToolTip="MaterialDesignSwitchAccentToggleButton"
+  IsChecked="False" />
+                    <Label Content=" OUI" FontSize="15"></Label>
+                </StackPanel>
+                <Label Visibility="Hidden" x:Name="Mise_a_jour_type" Margin="0,10,0,15" Content="Le type a été mit a jour" HorizontalContentAlignment="Center" Background="#FF272A33" Foreground="White" FontWeight="DemiBold" FontSize="15"></Label>
+                <StackPanel Orientation="Horizontal">
+                    <Border  HorizontalAlignment="left" VerticalAlignment="Bottom" Width="100" Height="32" CornerRadius="20" Background="#FF1FAB89" Margin="40,0,0,0">
+                        <Button x:Name="Confirmer_modification" VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Confirmer" Foreground="White" FontWeight="Bold" Margin="1,0,0,0" BorderBrush="{x:Null}" Click="Confirmer_modification_Click"></Button>
+                    </Border>
+                    <Border CornerRadius="20" Width="100" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="200,0,0,0">
+                        <Button x:Name="Annuler_modification" VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Annuler" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"  BorderBrush="{x:Null}" Click="Annuler_modification_Click"></Button>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Width="400">
+
+            <Grid Height="550">
+
+                <Grid x:Name="data_grid">
+                    <Label Content="Types De Prêts existants" HorizontalContentAlignment="Center" FontSize="20" FontWeight="DemiBold" ></Label>
+                    <DataGrid Style="{StaticResource MaterialDesignDataGrid}"   CanUserResizeColumns="False" CanUserResizeRows="False" x:Name="Types_Prets" CanUserAddRows="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AutoGenerateColumns="False" Margin="0,59,0,0">
+                        <DataGrid.Resources>
+
+                            <Style TargetType="{x:Type DataGridColumnHeader}">
+                                <Setter Property="Height" Value="50"></Setter>
+                                <Setter Property="FontFamily" Value="Verdana"/>
+                                <Setter Property="BorderBrush" Value="AliceBlue"/>
+                                <Setter Property="BorderThickness" Value="0,0,2,1"/>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"></Setter>
+                                <Setter Property="FontSize" Value="15"></Setter>
+                                <Setter Property="BorderBrush" Value="AliceBlue"></Setter>
+                                <Setter Property="Background" Value="AliceBlue"></Setter>
+
+                            </Style>
+                            <Style TargetType="{x:Type DataGridCell}">
+                                <Setter Property="FontFamily" Value="Verdana"/>
+                                <Setter Property="BorderBrush" Value="Transparent"/>
+                                <Setter Property="BorderThickness" Value="0,0,2,1"/>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"></Setter>
+                                <Setter Property="FontSize" Value="15"></Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="MediumAquamarine" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+
+                            <Style TargetType="{x:Type DataGridRow}">
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="MediumAquamarine" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.Resources>
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn IsReadOnly="False" x:Name="check_box_modifier" Header="          " Visibility="Visible" DisplayIndex="0">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox IsChecked="{Binding Include}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn IsReadOnly="True" Header="              Description              " Width="auto" Binding="{Binding Description}"/>
+                            <DataGridTextColumn IsReadOnly="True" Header="              Remboursable             " Width="auto" Binding="{Binding Remboursable}"/>
+                            <DataGridTextColumn IsReadOnly="True" Header="              Disponible               " Width="auto" Binding="{Binding Disponible}"/>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+
+            </Grid>
+            <Label x:Name="Erreur_Modification" Visibility="Hidden" Margin="0,10,0,20" Content="Veuillez Sélectionner Un Type De Prêt a Modifié !!" HorizontalContentAlignment="Center" FontSize="15" Foreground="Red"></Label>
+            <StackPanel Orientation="Horizontal">
+                <Border  HorizontalAlignment="left" VerticalAlignment="Bottom" Width="100" Height="32" CornerRadius="20" Background="#FF1FAB89" Margin="40,0,0,0">
+                    <Button x:Name="Modifier_type" VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Modifier" Foreground="White" FontWeight="Bold" Margin="1,0,0,0" BorderBrush="{x:Null}" Click="Modifier_type_Click"></Button>
+                </Border>
+                <Border CornerRadius="20" Width="100" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="90,0,0,0">
+                    <Button x:Name="Ajouter_type" VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Ajouter" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"  BorderBrush="{x:Null}" Click="Ajouter_type_Click"></Button>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
+

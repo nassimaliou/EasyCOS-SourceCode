@@ -1,0 +1,36 @@
+****************************** Lisez-moi (code source) *************************
+Bonjour et bienvenu dans la partie "code source" de notre projet !
+
+
+Pour pouvoir tester le code source de Easy COS vous devez avoir l'IDE
+              ***        Microsoft Visual Studio        ***
+Nous vous conseillons d'installer la version "Community" de ce dernier.
+Son installable a été fournit dans le fichier "outils.rar"...
+Sinon ,voici le lien pour le télécharger :
+
+-------------------------------------------------------------------------
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
+-------------------------------------------------------------------------
+
+Bien entendu pour lancer Easy COS vous devez d'abord installer un serveur
+Microsoft SQL SERVER Express Edition sur votre machine,
+si ce n'est pas encore fait,Son installable et aussi dans le fichier "outils.rar"...
+sinon ,voici le lien pour le télécharger:
+
+-------------------------------------------------------------------------
+https://go.microsoft.com/fwlink/?linkid=866658
+-------------------------------------------------------------------------
+
+Voila ! tout les outils sont installés, entrez dans Visual Studio et faites 
+Fichier -> Ouvrir -> Projet/Solution... puis selectionez le fichier "EasyCOS.sln".
+Vous pouver désormais visualiser le code de chaque Classes C#/fichiers XAML ou autres 
+via l'onglet "Explorateur de solution" et si vous voulez compiler le code cliquez sur "Démarrer".
+
+
+Merci!
+
+********************************************************************************
+
+
+
+

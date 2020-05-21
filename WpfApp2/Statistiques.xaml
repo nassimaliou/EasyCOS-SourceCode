@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="WpfApp2.Statistiques"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WpfApp2"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="1000">
+    <Grid Background="White" VerticalAlignment="Center" Visibility="Visible" HorizontalAlignment="Center" Width="1000" Height="650" x:Name="grid_stat_principale">
+        <TextBox Margin="427,273,439,339" x:Name="Année" materialdesign:HintAssist.Hint="Année choisis"></TextBox>
+        <Button Margin="446,331,457,284" Content="confirmer" x:Name="submit_year" Click="confirmation_année" MouseEnter="submit_year_MouseEnter" Background="LightSeaGreen" Foreground="White" Height="Auto"></Button>
+        <Grid x:Name="first_page_statistiques" Visibility="Hidden">
+            <Border CornerRadius="20" Width="200" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="120,0,0,616">
+                <Button x:Name="screenshot2" VerticalAlignment="Bottom" Background="Transparent" Content="Enregistrer l'image" Foreground="White" FontWeight="Bold"  BorderBrush="{x:Null}" Click="screenshot2_Click"/>
+            </Border>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="1" x:Name="first_page" Click="first_page_Click" Background="Transparent" Foreground="Black"></Button>
+                    <Button Content="2" x:Name="second_page" Click="second_page_Click" Margin="10,0,0,0" Background="Transparent" Foreground="Black"></Button>
+                    
+                    <Label Content="Evolution de compte virtuel par semaines" FontSize="20" FontWeight="DemiBold" Foreground="Gray" Margin="250,0,150,0" HorizontalAlignment="Center"></Label>
+                    <Button Content="annuler" x:Name="retour_1" Margin="10,0,0,0" Background="MediumAquamarine" Foreground="White" Click="retour_1_Click" Width="101"></Button>
+                </StackPanel>
+                <Grid Width="1000" Height="300" >
+                    <lvc:CartesianChart Name="chart_1" Width="1000" Height="300"  Series="{Binding SeriesCollection}" LegendLocation="Bottom">
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis Title="Montant" LabelFormatter="{Binding YFormatter}"></lvc:Axis>
+                        </lvc:CartesianChart.AxisY>
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="Mois"  Width="900" Labels="{Binding Labels}">
+                                <lvc:Axis.Separator >
+                                    <lvc:Separator Step="1.07"></lvc:Separator>
+                                </lvc:Axis.Separator>
+                            </lvc:Axis>
+                        </lvc:CartesianChart.AxisX>
+                    </lvc:CartesianChart>
+                </Grid>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Width="1000" Height="300" Margin="0,340,0,0">
+                <Label Content="Nombre de prêts par période" HorizontalAlignment="Center" FontSize="20" FontWeight="DemiBold" Foreground="Gray" Margin="362,0,366,0"></Label>
+                <Grid Width="1000" Height="260">
+                    <lvc:CartesianChart Width="1000" Height="250" Series="{Binding SeriesCollection2}" LegendLocation="Bottom">
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis  Title="Nombre de prêts" LabelFormatter="{Binding LFormatter}"></lvc:Axis>
+                        </lvc:CartesianChart.AxisY>
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="Mois"  Width="900" Labels="{Binding LFormatter}"></lvc:Axis>
+                        </lvc:CartesianChart.AxisX>
+                    </lvc:CartesianChart>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid Visibility="Hidden" Width="1000" Height="650" Background="White" x:Name="second_page_grid" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border CornerRadius="20" Width="200" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="120,0,0,616">
+                <Button x:Name="screenshot" VerticalAlignment="Bottom" Background="Transparent" Content="Enregistrer l'image" Foreground="White" FontWeight="Bold"  BorderBrush="{x:Null}" Click="screenshot1_Click"/>
+            </Border>
+            <Grid HorizontalAlignment="Left" Width="1000">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="1" x:Name="first_page_2" Click="first_page_Click" Background="Transparent" Foreground="Black"></Button>
+                        <Button Content="2" x:Name="second_page_2" Click="second_page_Click" Margin="10,0,0,0" Background="Transparent" Foreground="Black"></Button>
+                        <Button Content="annuler" x:Name="retour_2" Margin="800,3,0,0" Background="MediumAquamarine" HorizontalAlignment="Right" Foreground="White" Click="retour_1_Click" Width="101"></Button>
+                    </StackPanel>
+                    <Button Visibility="Visible" IsEnabled="True" x:Name="Paramétres_avancées" Click="Paramétres_avancées_Click" Background="MediumAquamarine" Margin="0,200,800,0" Width="200" Content="Paramétres Avancées :"  Foreground="White" BorderBrush="{x:Null}"></Button>
+                    <StackPanel x:Name="Afficher_Paramétres_avancées" Visibility="Hidden">
+                        <TextBox Margin="-800,0,0,0" Width="200" x:Name="Valeur" materialdesign:HintAssist.Hint="Saisissez Une Valeur Numérique ..." ></TextBox>
+                        <Label Margin="0,0,0,10" x:Name="Erreur" Visibility="Hidden" Content="Veuillez saisir une Valeur Valide !!" Foreground="Red"></Label>
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="Inf" Click="Inf_Click" Background="#FF1FAB89" BorderBrush="{x:Null}" Content="Inférieur" MouseEnter="Inf_MouseEnter"></Button>
+                            <Button x:Name="Sup" Click="Sup_Click" Background="#FF1FAB89" BorderBrush="{x:Null}" Content="Supérieur" Margin="22,0,0,0" MouseEnter="Sup_MouseEnter"></Button>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <StackPanel Width="800" HorizontalAlignment="Right">
+                <Label Content="Répartition des prêts selon le type" FontSize="20" FontWeight="DemiBold" HorizontalContentAlignment="Center" Foreground="Gray" HorizontalAlignment="Center" Width="600"/>
+                <Grid  Width="800" HorizontalAlignment="Right">
+                    <lvc:PieChart Name="pie" Width="800" LegendLocation="Bottom" HorizontalAlignment="Center" VerticalAlignment="Center" Height="600" Series="{Binding SeriesCollection3}">
+                    </lvc:PieChart>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

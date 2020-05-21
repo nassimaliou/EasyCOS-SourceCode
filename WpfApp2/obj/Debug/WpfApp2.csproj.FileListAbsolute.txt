@@ -1,0 +1,92 @@
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Suivi_Prét.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Suivi_Prét.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Connexion.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Connexion.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\check.gif
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Settings.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Settings.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\loading.mp4
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Accueil.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Accueil.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\Accueil1.mp4
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\Connexion.mp4
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Statistiques.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\Statistiques.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\NouveauPrêts.g.cs
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\obj\Debug\NouveauPrêts.baml
+C:\Users\Dual Computer\source\repos\WpfApp2\WpfApp2\bin\Debug\introduction2.mp4
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\check.gif
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\loading.mp4
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\Accueil1.mp4
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\Connexion.mp4
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\introduction2.mp4
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Accueil.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\NouveauPrêts.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Statistiques.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Suivi_Prét.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Connexion.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Settings.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\App.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Accueil.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\NouveauPrêts.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Statistiques.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Suivi_Prét.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Connexion.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Settings.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Window3.g.cs
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\obj\Debug\Window3.baml
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\System.Data.SqlClient.dll
+E:\ESI\2CP\S4\PRJP - Projet 2CPI\Repository\WpfApp2\WpfApp2\bin\Debug\System.Data.SqlClient.xml

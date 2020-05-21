@@ -1,0 +1,337 @@
+﻿
+<Window x:Class="WpfApp2.EasyCOS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="EasyCOS" Height="700" Width="1200" WindowStartupLocation="CenterScreen" Margin="0" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize">
+
+
+    <Grid MouseDown="Grid_MouseDown" x:Name="grid_gnrl" >
+        <Canvas x:Name="Menu" >
+            <Grid Height="50" VerticalAlignment="Top" Background="#FF64D4A4" Margin="0,0,0,0" >
+                <materialdesign:PackIcon Kind="Notifications" Margin="874,29,0,0" Foreground="Orange"></materialdesign:PackIcon>
+                <Border Height="40" Width="300" Margin="451,5,529,5" CornerRadius="20" Background="White">
+                    <Button HorizontalAlignment="Center" ToolTip="Compte Virtuel Cos ESI" VerticalAlignment="Center" Background="Transparent" Width="300" Height="40" BorderBrush="{x:Null}">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Width="300" Height="40" >
+                            <TextBlock x:Name="CompteCosTotal" VerticalAlignment="Center"  Width="206" Margin="20,8,0,8" FontWeight="Bold" FontSize="17" Foreground="#FF64D4A4" d:LayoutOverrides="TopMargin, BottomMargin"></TextBlock>
+                            <Grid Background="#FF64D4A4" Height="40" Width="4" Margin="3,0,3,0"></Grid>
+                            <Button x:Name="Display_Detail" ToolTip="Cacher le detail" Click="Display_Detail_Click" Width="60" Height="40"  HorizontalAlignment="Center" VerticalAlignment="Center" Background="Transparent" BorderBrush="{x:Null}">
+                                <materialdesign:PackIcon x:Name="Icon_Display_Detail" Width="30" Height="30"  Kind="ArrowBottomDropCircleOutline" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF64D4A4" ></materialdesign:PackIcon>
+                            </Button>
+                        </StackPanel>
+                    </Button>
+                </Border>
+                <materialdesign:PopupBox ToolTip="Options Secondaires" HorizontalAlignment="Right" Margin="50,5,100,5" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Foreground="White">
+                    <StackPanel Width="150">
+                        <Button  Content="Réduire" x:Name="reduction" Click="reduction_Click"></Button>
+                        <Separator></Separator>
+                        <Button  Content="A propos" x:Name="description" Click="description_Click"></Button>
+                        <Separator></Separator>
+                        <Button  Content="Aide en ligne" x:Name="aide" Click="aide_click"></Button>
+                    </StackPanel>
+                </materialdesign:PopupBox>
+
+                <Button x:Name="profil_user" MouseLeave="profil_user_MouseLeave" MouseEnter="profil_user_MouseEnter" Background="{x:Null}" Width="30" Height="30"  Margin="919,10,331,10" Padding="0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold">
+                    <materialdesign:PackIcon Kind="Account" Width="30" Height="30"></materialdesign:PackIcon>
+                </Button>
+                <Button x:Name="prelevement_button" MouseLeave="prelevement_MouseLeave" MouseEnter="prelevement_MouseEnter" Background="{x:Null}" Width="30" Height="30"  Margin="850,10,400,10" Padding="0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="prelevement_click" >
+                    <materialdesign:PackIcon x:Name="notif_prelevement" Kind="Payment" Width="30" Height="30"></materialdesign:PackIcon>
+                </Button>
+                <Button x:Name="excel_button" MouseLeave="excel_MouseLeave" MouseEnter="excel_MouseEnter" Background="{x:Null}" Width="30" Height="30"  Margin="778,10,472,10" Padding="0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="excel_click" >
+                    <materialdesign:PackIcon Kind="MicrosoftExcel" Width="30" Height="30"></materialdesign:PackIcon>
+                </Button>
+                <Button x:Name="Paramétres" ToolTip="Paramétres" Background="{x:Null}" Width="30" Height="30"  Margin="1004,10,246,10" Padding="0" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" Click="Paramétres_Click">
+                    <materialdesign:PackIcon Kind="Settings"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="30" Height="30"></materialdesign:PackIcon>
+                </Button>
+                <Button x:Name="Eteindre" ToolTip="Deconnexion" Background="{x:Null}" Width="30" Height="30"  Margin="1075,10,175,10" Foreground="White" Padding="0" BorderBrush="{x:Null}" FontWeight="Bold" Click="deconnexion">
+                    <materialdesign:PackIcon Kind="Power" VerticalAlignment="Center" HorizontalAlignment="Center" Width="30" Height="30"></materialdesign:PackIcon>
+                </Button>
+                <TextBlock HorizontalAlignment="Left" Margin="246,10,0,0" TextWrapping="Wrap" Text="date/heure" VerticalAlignment="Top" Width="189" Height="30" Foreground="White" FontSize="20" TextAlignment="Center" Name="dateText"/>
+                <materialdesign:PackIcon Foreground="#FF1FAB89" Kind="DateRange" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="210,10,1039,10" Height="30" Width="31"></materialdesign:PackIcon>
+            </Grid>
+
+            <Grid  Width="180"  HorizontalAlignment="Left" Background="#FF272A33" Height="700">
+                <materialdesign:TransitioningContent x:Name="Transition" OpeningEffect="{materialdesign:TransitionEffect Kind=SlideInFromLeft, Duration=0:0:0.2}" Margin="0,0,0,50">
+                    <Grid x:Name="GridCursor" Margin="0,106,0,0" VerticalAlignment="Top" Background="#FF64D4A4" Width="10" HorizontalAlignment="Left" Height="48" ></Grid>
+                </materialdesign:TransitioningContent>
+                <ListView x:Name="listMenu" Margin="0,105,0,0"  SelectionChanged="listMenu_SelectionChanged">
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon Margin="8,0,0,0" Kind="Home" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Accueil" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal" >
+                            <materialdesign:PackIcon Margin="8,0,0,0" Kind="Handshake" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Prêts Accordés" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon  Margin="8,0,0,0" Kind="Money" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Dons effectués" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon Margin="8,0,0,0" Kind="Add" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Nouveau type" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon  Margin="8,0,0,0" Kind="SackPercent" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Statistiques" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+
+
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon  Margin="8,0,0,0" Kind="ArchiveArrowUp" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Archives" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon  Margin="8,0,0,0" Kind="People" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Liste Employés " FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Margin="0,0,0,10" Padding="0,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <materialdesign:PackIcon  Margin="8,0,0,0" Kind="Paper" Width="40" Height="30" Foreground="White"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                            <TextBlock Text="Bilan annuel" FontSize="15" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0"></TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </Grid>
+            <Grid Height="50" Width="180" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF1FAB89">
+                <TextBlock Text="Easy Cos " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="#FF3250A0" FontWeight="Bold" FontFamily="Rockwell Extra Bold" Margin="59,10,1,14"></TextBlock>
+                <Image Margin="-10,-10,105,-25" Source="240_F_291879016_v9wrX0UHGEhZipuTQzdgfhfghcnBltzBFb3Bdp (1).png" Stretch="Fill"></Image>
+                <Button Click="aide_click" Width="160" Height="45" Foreground="Transparent" Background="Transparent" BorderBrush="{x:Null}" ToolTip="Aide en ligne de Easy COS"></Button>
+            </Grid>
+            <Grid x:Name="Grid_Principale" Width="1020"  Height="650" Canvas.Left="180" Canvas.Top="50">
+            </Grid>
+
+            <Grid x:Name="prelevement" Width="1020" Height="650" Canvas.Left="180" Canvas.Top="50" Background="White" Visibility="Hidden">
+                <Label  Content="Prélèvement prévu pour ce mois :" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,25,0,0"/>
+                <Button x:Name="actualiser_datagrid" VerticalAlignment="Top" HorizontalAlignment="Left" Width="auto" Background="Transparent" Foreground="Transparent" Margin="915,38,0,0" BorderBrush="{x:Null}" Click="actualiser_click"></Button>
+                <materialdesign:PackIcon  Margin="910,40,0,580" Kind="Cached" Width="40" Height="30" Foreground="Black"  VerticalAlignment="Center"></materialdesign:PackIcon>
+                <DataGrid Style="{StaticResource MaterialDesignDataGrid}" Background="White" CanUserResizeColumns="False" CanUserResizeRows="False"  x:Name="Donnée_pret_ac" CanUserAddRows="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="66,78,66,172" AutoGenerateColumns="False" >
+                    <DataGrid.Resources>
+
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="FontFamily" Value="Verdana"/>
+                            <Setter Property="Height" Value="50"></Setter>
+                            <Setter Property="BorderBrush" Value="AliceBlue"/>
+                            <Setter Property="BorderThickness" Value="0,0,2,1"/>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"></Setter>
+                            <Setter Property="FontSize" Value="15"></Setter>
+                            <Setter Property="BorderBrush" Value="AliceBlue"></Setter>
+                            <Setter Property="Background" Value="AliceBlue"></Setter>
+
+                        </Style>
+                        <Style TargetType="{x:Type DataGridCell}">
+                            <Setter Property="FontFamily" Value="Verdana"/>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,2,1"/>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"></Setter>
+                            <Setter Property="FontSize" Value="15"></Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Background" Value="MediumAquamarine" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+
+                        <Style TargetType="{x:Type DataGridRow}">
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Background" Value="MediumAquamarine" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn IsReadOnly="False" x:Name="check_box_Archiver" Visibility="Hidden" DisplayIndex="0">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox IsChecked="{Binding Path=Include}"></CheckBox>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn IsReadOnly="True" Header="      Nom     " Width="auto" Binding="{Binding Path=Nom}"></DataGridTextColumn>
+                        <DataGridTextColumn IsReadOnly="True" Header="      Prénom    " Width="auto" Binding="{Binding  Path=Prenom}"></DataGridTextColumn>
+                        <DataGridTextColumn IsReadOnly="True" Header="       Description du Prêt   " Width="auto" Binding="{Binding Path=description}"></DataGridTextColumn>
+                        <DataGridTextColumn IsReadOnly="True" Header="   N­° Pv   " Width="auto" Binding="{Binding Path=N_Pv}"></DataGridTextColumn>
+                        <DataGridTextColumn IsReadOnly="True" Header="    Date De Paiement    " Width="auto" Binding="{Binding Path=Date_paiement}"></DataGridTextColumn>
+                        <DataGridTextColumn IsReadOnly="True" Header="    Montant Prêt     " Width="auto" Binding="{Binding Path=Montant_Prét}"></DataGridTextColumn>
+
+
+                        <DataGridTemplateColumn IsReadOnly="True" Header="       " Width="auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <materialdesign:PopupBox Foreground="Black">
+                                        <StackPanel>
+                                        </StackPanel>
+                                    </materialdesign:PopupBox>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Border x:Name="confirmer_prelevement" HorizontalAlignment="left" VerticalAlignment="Bottom" Width="210" Height="32" CornerRadius="20" Background="#FF1FAB89" Margin="540,0,0,20">
+                    <Button  Background="Transparent" Content="Confirmer le Prélèvement" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Click="confirmer_Prélèvement_click" Height="Auto" />
+                </Border>
+                <Border x:Name="retourner_suivi_bouton" HorizontalAlignment="left" VerticalAlignment="Bottom" Width="100" Height="32" CornerRadius="20" Background="#FF1FAB89" Margin="850,0,0,20">
+                    <Button  VerticalAlignment="Bottom" Background="Transparent" Content="Retour" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Click="retourner_suivi_click" />
+                </Border>
+                <Border x:Name="affiche_montant" HorizontalAlignment="left" VerticalAlignment="Bottom" Width="100" Height="32" CornerRadius="20" Background="#FF1FAB89" Margin="105,0,0,20">
+                    <Button  VerticalAlignment="Bottom" Background="Transparent" Content="Afficher" Foreground="White" FontWeight="Bold" BorderBrush="{x:Null}" Click="affiche_montant_click"/>
+                </Border>
+                <ComboBox x:Name="methode_prelevement" HorizontalAlignment="Left" Margin="105,530,0,0" VerticalAlignment="Top" Width="250" materialdesign:HintAssist.Hint="                  Methode de prélèvement :" SelectionChanged="montant_prelevement_selection_changed"/>
+                <Label x:Name="montant_titre" Content="Montant du prélèvement :" HorizontalAlignment="Left" Margin="536,315,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF440D6A" FontWeight="Bold" Visibility="Hidden"/>
+                <TextBox x:Name="montant_prelevement" HorizontalAlignment="Left" Height="30" Margin="255,599,0,0"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="170" FontSize="16" IsReadOnly="True"/>
+                <Label x:Name="da_titre" Content="DA ." HorizontalAlignment="Left" Height="30" Margin="450,600,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+                <TextBox x:Name="nb_mois_saisi" HorizontalAlignment="Left" Text="1" Height="30" Margin="260,552,0,0"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="80" FontSize="16" Visibility="Hidden"/>
+                <Label x:Name="m" Content="Mois ." HorizontalAlignment="Left" Height="30" Margin="357,552,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.66,0.6" Visibility="Hidden"/>
+                <Label x:Name="nb_mois" Content="Nombre de mois :" HorizontalAlignment="Left" Height="30" Margin="105,552,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Visibility="Hidden"/>
+                <Label x:Name="remarque_prelevements_ancien" Content="Cette liste contient des prélèvements non éffectués qui dattent d'un mois antérieur !" HorizontalAlignment="Center" Margin="20,10,0,0" VerticalAlignment="Top" Width="570" Foreground="Red" FontSize="15" Visibility="Hidden"/>
+            </Grid>
+
+            <Grid Visibility="Hidden" x:Name="pop_prelevement" Width="400" Height="179" Canvas.Left="505" Canvas.Top="36">
+                <Path HorizontalAlignment="Center" VerticalAlignment="Center" 
+               
+               Data="M -100,0 L -100,-100 C-100,-100 -100,-110 -90,-110 L 198,-110 L 220,-139 220,-110 L 240,-110 C240,-110 250,-110 250,-100  L250,30 C250,30 250,40 240,40 L-90,40 C-90,40 -100,40 -100,30 L-100,-100" Fill="#FF272A33" Height="179" Width="350" Stretch="Fill" Stroke="#FF272A33">
+
+                </Path>
+                <Label Content="  Prélèvement a faire ce mois ci..."  Foreground="#FFDEDEDE" Margin="45,59,45,80" FontSize="20"/>
+                <Label x:Name = "nb_prelevement_pop" Content=""  Foreground="#FFDEDEDE" Margin="45,104,45,35" FontSize="20"/>
+            </Grid>
+
+            <Grid Visibility="Hidden" x:Name="pop_excel" Width="400" Height="179" Canvas.Left="440" Canvas.Top="36">
+                <Path HorizontalAlignment="Center" VerticalAlignment="Center" 
+               
+               Data="M -100,0 L -100,-100 C-100,-100 -100,-110 -90,-110 L 198,-110 L 220,-139 220,-110 L 240,-110 C240,-110 250,-110 250,-100  L250,30 C250,30 250,40 240,40 L-90,40 C-90,40 -100,40 -100,30 L-100,-100" Fill="#FF272A33" Height="179" Width="350" Stretch="Fill" Stroke="#FF272A33">
+
+                </Path>
+                <Label Content="          Exporter le suivi vers"  Foreground="#FFDEDEDE" Margin="45,65,45,74" FontSize="20"/>
+                <Label Content="             Microsoft Excel..."  Foreground="#FFDEDEDE" Margin="45,105,45,34" FontSize="20"/>
+            </Grid>
+            <Grid Visibility="Hidden" x:Name="pop_compte" Width="400" Height="179" Canvas.Left="580" Canvas.Top="36">
+                <Path HorizontalAlignment="Center" VerticalAlignment="Center" 
+               
+               Data="M -100,0 L -100,-100 C-100,-100 -100,-110 -90,-110 L 198,-110 L 220,-139 220,-110 L 240,-110 C240,-110 250,-110 250,-100  L250,30 C250,30 250,40 240,40 L-90,40 C-90,40 -100,40 -100,30 L-100,-100" Fill="#FF272A33" Height="179" Width="350" Stretch="Fill" Stroke="#FF272A33">
+
+                </Path>
+                <Image x:Name="image_info"  Width="100" Source="ESI.png" HorizontalAlignment="Left" Margin="43,50,0,29" VerticalAlignment="Center" Height="100" Stretch="Fill"></Image>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="100" Margin="130,0,0,0">
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBox Text="Nom utilisateur :"  BorderBrush="LightGray" Foreground="White"></TextBox>
+                        <TextBox  x:Name="Pseudo_show" Width="110" BorderBrush="LightGray" Foreground="White"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBox  Text="mot de passe :" BorderBrush="LightGray"  Foreground="White"></TextBox>
+                        <PasswordBox x:Name="Password_show" BorderBrush="LightGray" Foreground="White" FontWeight="Bold" Width="120" ></PasswordBox>
+                    </StackPanel>
+                </StackPanel>
+                <Label Content="Accéder au paramétres pour modifier..."    Foreground="#FFDEDEDE" Width="220" Height="25" Margin="30,154,157,0"></Label>
+            </Grid>
+            <Grid Visibility="Hidden" x:Name="export_grid" Width="1020" Height="650" Canvas.Left="180" Canvas.Top="50" Background="White">
+                <Label  Content="Choisissez les données que vous voulez exporter :" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,25,0,0"/>
+                <Label  Content="Exporter le suivi des Prêts remboursables : " FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,139,0,0"/>
+                <GridSplitter Width="900" Height="1" Margin="60,172,60,477" Background="Gray"  HorizontalAlignment="Center"></GridSplitter>
+                <ToggleButton x:Name="toogle_mode_pret"   Width="212" Height="24"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,196,0,0"/>
+
+                <Label  Content="Exporter le suivi des Archives : " FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,401,0,0"/>
+                <GridSplitter Width="900" Height="1" Margin="60,434,60,215" Background="Gray"  HorizontalAlignment="Center"></GridSplitter>
+                <ToggleButton x:Name="toogle_mode_archive"   Width="212" Height="24"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,460,0,0"/>
+
+                <Label  Content="Exporter le suivi des Prêts non remboursables (Dons) : " FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,265,0,0"/>
+                <GridSplitter Width="900" Height="1" Margin="60,298,60,351" Background="Gray"  HorizontalAlignment="Center"></GridSplitter>
+                <ToggleButton x:Name="toogle_mode_dons" Width="212" Height="24"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,320,0,0"/>
+
+
+
+                <Border HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="100" Height="31" CornerRadius="20" Background="#FF1FAB89" Margin="0,0,64,34">
+                    <Button x:Name="retour_export" Background="Transparent" Width="100" Padding="0"  Content="Retour" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,-1" BorderBrush="{x:Null}" Click="retour_export_Click" Height="Auto"/>
+                </Border>
+                <Border   HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="195" Height="31" CornerRadius="20" Background="#FF1FAB89" Margin="0,0,240,34">
+                    <Button x:Name="confirme_export" Background="Transparent" Width="195" Padding="0"  Content="Confirmer l'exportation" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,-1" BorderBrush="{x:Null}" Click="Confirmer_exportation_Click" Height="Auto"/>
+                </Border>
+                <Label  Content="* la vitesse de l'exportation depend des performences de votre machine, veillez patienter durant la procédure SVP." FontSize="14" Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,515,0,0"/>
+
+            </Grid>
+        </Canvas>
+        <Grid x:Name="Description_grid" Height="700" Width="250" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,-250,0">
+            <Image x:Name="description_image" Stretch="Fill" Source="ESI.png"  HorizontalAlignment="Center"  VerticalAlignment="Top" Height="200" Width="250"></Image>
+            <TextBlock Height="500" VerticalAlignment="Bottom" Text=" &#x0a; &#x0a; &#x0a;&#x0a;&#x0a;&#x0a;&#x0a;    L'application Easy COS a été &#x0a;   réalisé dans le Cadre du projet&#x0a;    2CP 2019/2020, son objectif : &#x0a;  Facilité la gestion des différents &#x0a;              types de prêts ... " Foreground="White" FontSize="16" Background="#FF272A33" Width="250"></TextBlock>
+            <Button VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0" Background="Transparent" x:Name="back_description" BorderBrush="{x:Null}" Width="59" Height="40" Click="back_description_Click">
+                <materialdesign:PackIcon Width="30" Height="30" Margin="-10,0,0,0" Foreground="White" Kind="ArrowRightDropCircleOutline"></materialdesign:PackIcon>
+            </Button>
+
+            <Image Margin="47,135,48,405" Source="240_F_291879016_v9wrX0UHGEhZipuTQzdgfhfghcnBltzBFb3Bdp (1).png" Stretch="Fill"/>
+        </Grid>
+
+        <MediaElement Visibility="Hidden" LoadedBehavior="Manual" UnloadedBehavior="Manual" Stretch="Fill" Source="introduction2.mp4" x:Name="welcome" MediaEnded="welcome_MediaEnded"></MediaElement>
+        <MediaElement Visibility="Hidden" Source="loading.mp4" x:Name="media" UnloadedBehavior="Manual" MediaEnded="media_MediaEnded" Stretch="Fill" LoadedBehavior="Manual"></MediaElement>
+
+        <Grid x:Name="Ajouter_Montant_Tresor" Height="650" Canvas.Left="180" Canvas.Top="50" Visibility="Hidden" Margin="183,50,5,0">
+            <Label  Content="Veuillez remplir le champ ci-dessous :" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="262,70,0,0"/>
+            <TextBox x:Name="Tresor_Annee" Width="300" Height="40" materialdesign:HintAssist.Hint="Entrez le montant de cette année" FontFamily="Verdana" Foreground="Black" Margin="361,271,361,339" d:LayoutOverrides="HorizontalAlignment"/>
+            <Label x:Name="NotAccepted" Visibility="Hidden" Margin="320,0,283,288" FontSize="14" Foreground="#DDFF0707" VerticalAlignment="Bottom" FontWeight="Bold">Ce que vous avez entré est inacceptable, veuillez réessayer !!</Label>
+            <Label x:Name="Accepted" Visibility="Hidden" Margin="408,0,408,288" FontSize="14" Foreground="#DD0A0909" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontWeight="Bold">Le montant saisi a été ajouté</Label>
+            <Border CornerRadius="20" Width="100" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="890,0,0,28" Grid.Row="1">
+                <Button x:Name="Confirmer_Montant_Tresor"  VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Confirmer" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"  BorderBrush="{x:Null}" Click="Confirmer_tresor_Click" ></Button>
+            </Border>
+            <Border CornerRadius="20" Width="100" Height="32" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#FF1FAB89" Margin="746,0,0,28" Grid.Row="1">
+                <Button x:Name="Annuler_Montant_Tresor"  VerticalAlignment="Bottom" Width="100" Background="Transparent" Content="Annuler" Foreground="White" FontWeight="Bold" Margin="0,0,0,0"  BorderBrush="{x:Null}" Click="Annuler_tresor_Click" />
+            </Border>
+        </Grid>
+
+
+        <Border Visibility="Hidden" x:Name="border_memer" CornerRadius="12,12,12,12" BorderThickness="6" Padding="4" Background="WhiteSmoke" materialdesign:ShadowAssist.Darken="True" Width="420" Height="0"  d:LayoutOverrides="Height"  Margin="354,50,346,0" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect/>
+            </Border.Effect>
+            <Grid  x:Name="Detail_slimimer"  Visibility="Hidden" Width="389" Height="299" Background="WhiteSmoke" Margin="7,1,4,0" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock FontFamily="Montserrat" Text="Montant restant dans le compte " FontWeight="Thin" Padding="10,5,5,5" Grid.Row="0" x:Name="montant_restant" Foreground="#FF272A33" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Montserrat" Padding="10,5,5,5" Grid.Row="0" x:Name="montant_restant2" Foreground="MediumAquamarine" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                <Border Background="LightSlateGray" Height="1" Margin="1,41,1,1" Grid.Row="0"></Border>
+                <TextBlock FontFamily="Montserrat" Text="Somme total de prêts " Padding="10,5,5,5" FontWeight="Thin" Grid.Row="1" x:Name="nbr_prt_total" Foreground="#FF272A33" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Montserrat" Padding="10,5,5,5" Grid.Row="1" x:Name="nbr_prt_total2" Foreground="MediumAquamarine" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                <Border Background="LightSlateGray" Height="1" Margin="1,41,1,1" Grid.Row="1"></Border>
+                <TextBlock FontFamily="Montserrat" Text="Somme total remboursée" Padding="10,5,5,5" FontWeight="Thin" Grid.Row="2" x:Name="nbr_prt_socials" Foreground="#FF272A33" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Montserrat" Padding="10,5,5,5" Grid.Row="2" x:Name="nbr_prt_socials2" Foreground="MediumAquamarine" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                <Border Background="LightSlateGray" Height="1" Margin="1,41,1,1" Grid.Row="2"></Border>
+                <TextBlock FontFamily="Montserrat" Text="Somme prêts non remboursables " FontWeight="Thin" Padding="10,5,5,5" Grid.Row="3" x:Name="nbr_dons" Foreground="#FF272A33" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Montserrat" Padding="10,5,5,5" Grid.Row="3" x:Name="nbr_dons2" Foreground="MediumAquamarine" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                <Border Background="LightSlateGray" Height="1" Margin="1,41,1,1" Grid.Row="3"></Border>
+                <TextBlock FontFamily="Montserrat" Text="Prêts en cours de suivi" Padding="10,5,5,5" FontWeight="Thin" Grid.Row="4" x:Name="nbr_prt_cours_suivi" Foreground="#FF272A33" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Montserrat" Padding="10,5,5,5" Grid.Row="4" x:Name="nbr_prt_cours_suivi2" Foreground="MediumAquamarine" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                <Border Background="LightSlateGray" Height="1" Margin="1,41,1,1" Grid.Row="4"></Border>
+                <Border Grid.Row="5" VerticalAlignment="Center" Height="40" CornerRadius="20" BorderThickness="4" Background="#FF1FAB89" Margin="22,5,22,5" HorizontalAlignment="Center" Width="303">
+                    <Button x:Name="Montant_Tresor_Annee"  Background="Transparent" Width="257" Padding="0"  Content="Cloture de l'année en cours" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center" Margin="25,0,21,-1" BorderBrush="{x:Null}" Click="Entrer_Montant_Tresor_Click" Height="Auto" VerticalAlignment="Center"/>
+                </Border>
+            </Grid>
+
+        </Border>
+
+
+    </Grid>
+
+</Window>

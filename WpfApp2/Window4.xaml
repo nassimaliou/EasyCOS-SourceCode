@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="WpfApp2.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Height="650" Width="1000">
+    <Grid x:Name="Main_Grid">
+        <Grid x:Name="data_grid">
+            <DataGrid Style="{StaticResource MaterialDesignDataGrid}"  CanUserResizeColumns="False" CanUserResizeRows="False" x:Name="Resultats_recherche" CanUserAddRows="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="0,80,10,170" AutoGenerateColumns="False">
+                
+                <DataGrid.Resources>
+
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="Height" Value="50"></Setter>
+                        <Setter Property="FontFamily" Value="Verdana"/>
+                        <Setter Property="BorderBrush" Value="AliceBlue"/>
+                        <Setter Property="BorderThickness" Value="0,0,2,1"/>
+                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="FontSize" Value="15"></Setter>
+                        <Setter Property="BorderBrush" Value="AliceBlue"></Setter>
+                        <Setter Property="Background" Value="AliceBlue"></Setter>
+
+                    </Style>
+                    <Style TargetType="{x:Type DataGridCell}">
+                        <Setter Property="Height" Value="30"></Setter>
+                        <Setter Property="FontFamily" Value="Verdana"/>
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="0,0,2,1"/>
+                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="FrameworkElement.VerticalAlignment" Value="Center"></Setter>
+                        <Setter Property="FontSize" Value="15"></Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="MediumAquamarine" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+
+                    <Style TargetType="{x:Type DataGridRow}">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="MediumAquamarine" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+
+                    
+                    <DataGridTextColumn IsReadOnly="True" Header="        Nom     " Width="auto" Binding="{Binding Path=Nom}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Prénom    " Width="auto" Binding="{Binding  Path=Prenom}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Etat social     " Width="auto" Binding="{Binding Path=etat_social}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Description du Prêt             " Width="auto" Binding="{Binding Path=Type_Prêt}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        N­° Pv       " Width="auto" Binding="{Binding Path=N_Pv}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Date du Pv         " Width="auto" Binding="{Binding Path=Date_de_Pv}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Date De Demande      " Width="auto" Binding="{Binding Path=Date_demande}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Date de recrutement       " Width="auto" Binding="{Binding Path=Date_de_recrutement}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Montant Prêt     " Width="auto" Binding="{Binding Path=Montant_Prét}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Montant Prêt Lettre      " Width="auto" Binding="{Binding Path=Montant_Prét_lettre}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="          Motif          " Width="auto" Binding="{Binding Path=Motif}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Date de fin de paiement       " Width="auto" Binding="{Binding Path=Date_dernier_paiment}"></DataGridTextColumn>
+                    <DataGridTextColumn IsReadOnly="True" Header="        Duree de remboursement       " Width="auto" Binding="{Binding Path=Duree_de_paiment}"></DataGridTextColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+            <Label Content="Somme totale des prêts:" HorizontalAlignment="Left" Height="43.5" Margin="30,499.5,0,0" VerticalAlignment="Top" Width="487.5" FontSize="20" FontFamily="Verdana"/>
+            <TextBlock HorizontalAlignment="Left" Height="43.5" Margin="421.5,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" x:Name="cpt" FontSize="20" FontFamily="Verdana"/>
+            <Label Content="Nombre de résultats correspondant:" HorizontalAlignment="Left" Height="43.5" Margin="30,36.5,0,0" VerticalAlignment="Top" Width="487.5" FontSize="20" FontFamily="Verdana"/>
+            <Button Content="Retour" HorizontalAlignment="Left" Margin="804,583.5,0,0" VerticalAlignment="Top" Width="109.5" Background="SeaGreen" BorderBrush="SeaGreen" Click="Retour_Click"/>
+            <TextBlock HorizontalAlignment="Left" Height="43.5" Margin="307.5,499.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" x:Name="somme_total" FontSize="20" FontFamily="Verdana"/>
+        </Grid>
+
+
+    </Grid>
+</UserControl>

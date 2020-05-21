@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\packages\\LiveCharts.0.9.7",
+    "\\packages\\Pubnub.4.6.0",
+    "\\packages\\System.Data.SqlClient.4.8.1",
+    "\\packages\\System.ValueTuple.4.4.0",
+    "\\WpfApp2",
+    "\\WpfApp2\\obj\\Debug",
+    "\\WpfApp2\\obj\\x86",
+    "\\WpfApp2\\obj\\x86\\Debug",
+    "\\WpfApp2\\obj\\x86\\Release"
+  ],
+  "SelectedNode": "\\WpfApp2",
+  "PreviewInSolutionExplorer": false
+}

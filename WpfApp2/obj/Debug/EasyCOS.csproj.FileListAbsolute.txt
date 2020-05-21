@@ -1,0 +1,369 @@
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\Accueil1.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\Connexion.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\check.gif
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\loading.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\introduction2.mp4
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\EASY COS.exe.config
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\EASY COS.exe
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\EASY COS.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\Pubnub.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\System.Data.SqlClient.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\System.ValueTuple.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\WPFNotification.dll
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\System.Data.SqlClient.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\bin\Debug\System.ValueTuple.xml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EasyCOS.csprojAssemblyReference.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EasyCOS.csproj.ResolveComReference.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Settings.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window5.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window6.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Accueil.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Archivage.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Bilan.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Employes.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\fenetre1.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\fenetre2.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\NouveauPrêts.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Settings.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\stat.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Statistiques.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Suivi_Prét.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Connexion.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\dons.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\UserControl1.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\App.g.cs
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EASY COS_MarkupCompile.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EASY COS_MarkupCompile.lref
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\App.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Accueil.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Archivage.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Bilan.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Employes.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\fenetre1.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\fenetre2.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\NouveauPrêts.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\stat.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Statistiques.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Suivi_Prét.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Connexion.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\dons.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\UserControl1.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window3.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\Window4.baml
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EASY COS.g.resources
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EasyCOS.Properties.Resources.resources
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EasyCOS.csproj.GenerateResource.cache
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EasyCOS.csproj.CopyComplete
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EASY COS.exe
+C:\Users\ELITEBOOK\Desktop\prologue\master\WpfApp2\obj\Debug\EASY COS.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\check.gif
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\loading.mp4
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Accueil1.mp4
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Connexion.mp4
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\introduction2.mp4
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\EASY COS.exe.config
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\EASY COS.exe
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\EASY COS.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\netstandard.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.AppContext.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Collections.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.ComponentModel.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Console.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Data.Common.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Globalization.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.Compression.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.Pipes.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Linq.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.Http.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.Ping.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.Requests.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.Security.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.Sockets.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.ObjectModel.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Reflection.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Resources.Reader.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Resources.Writer.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Claims.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.Principal.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Security.SecureString.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Text.Encoding.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Thread.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Timer.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.ValueTuple.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Xml.XPath.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\CsvHelper.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\linq2db.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Assessment.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SmoMetadataProvider.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Pubnub.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Data.OleDb.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\WPFNotification.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\CsvHelper.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\linq2db.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\linq2db.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Dmf.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SmoMetadataProvider.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SmoMetadataProvider.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SqlParser.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SqlParser.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Smo.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Smo.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Data.OleDb.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EasyCOS.csprojAssemblyReference.cache
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS.exe.config
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EasyCOS.csproj.ResolveComReference.cache
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Settings.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window5.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window6.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Accueil.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Archivage.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Bilan.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Employes.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\fenetre1.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\fenetre2.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\NouveauPrêts.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Settings.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\stat.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Statistiques.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Suivi_Prét.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Connexion.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\dons.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\UserControl1.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window3.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window4.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window5.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window6.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS_Content.g.cs
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS_MarkupCompile.cache
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS_MarkupCompile.lref
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\App.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Accueil.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Archivage.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Bilan.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Employes.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\fenetre1.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\fenetre2.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\NouveauPrêts.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\stat.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Statistiques.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Suivi_Prét.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Connexion.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\dons.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\UserControl1.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window3.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\Window4.baml
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS.g.resources
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EasyCOS.Properties.Resources.resources
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EasyCOS.csproj.GenerateResource.cache
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EasyCOS.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EasyCOS.csproj.CopyComplete
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS.exe
+C:\Users\Mohamed Nassim\Desktop\18 mai\WpfApp2\obj\Debug\EASY COS.pdb
